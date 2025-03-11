@@ -2,7 +2,7 @@ import requests
 import torch
 from PIL import Image
 import io
-from moviepy.editor import ImageSequenceClip
+from moviepy.video.io.ImageSequenceClip import ImageSequenceClip
 
 class WebhookSenderNode:
     CATEGORY = "Custom"
